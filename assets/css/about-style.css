@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 20;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: space-around;
+}
+
+html {
+    margin: 0;
+}
+
+#about-text {
+    text-align: center;
+    margin: 1rem;
+    opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#refs{
+    margin-top: 5rem;
+    opacity:0;
+}
+
+#refs-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#back-button {
+    opacity: 0;
+    margin-top: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
