@@ -5,6 +5,8 @@ $(document).ready(function() {
     $("#frame2").delay(2100).fadeTo(1000,1);
     $("#h2-1").delay(2000).fadeTo(1000,1);
     $("#p-1").delay(2400).fadeTo(1000,1);
+    $("#nft1").delay(2700).fadeTo(1000,1);
+
 });
 
 $(window).on("load",function() {
