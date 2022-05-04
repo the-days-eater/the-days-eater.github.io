@@ -6,12 +6,13 @@ $(document).ready(function() {
     $("#h2-1").delay(2000).fadeTo(1000,1);
     $("#p-1").delay(2400).fadeTo(1000,1);
     $("#nft1").delay(2700).fadeTo(1000,1);
+    $("#p-2").delay(2800).fadeTo(1000,.7);
 
 });
 
 $(window).on("load",function() {
     $(window).scroll(function() {
-      var windowBottom = $(this).scrollTop() + ($(this).innerHeight() * .2);
+      var windowBottom = $(this).scrollTop() + ($(this).innerHeight() * .25);
       $(".fadein").each(function() {
         /* Check the location of each desired element */
         var objectBottom = $(this).offset().top + $(this).outerHeight() /2;
