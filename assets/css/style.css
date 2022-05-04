@@ -112,6 +112,7 @@ p {
 #about {
     font-family: 'Courier New', Courier, monospace;
     height: 1000px;
+    font-size: 24pt;
     width:fit-content;
     min-width: 100%;
     background-color: white;
@@ -121,7 +122,7 @@ p {
 }
 
 #about p {
-    font-size:14pt;
+    font-size:18pt;
     color:black;    
     text-align: center;
 }

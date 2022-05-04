@@ -10,6 +10,10 @@ $(document).ready(function() {
 
 });
 
+
+//fade in on
+//scroll code sourced from https://stackoverflow.com/questions/26694385/fade-in-on-scroll-down-fade-out-on-scroll-up-based-on-element-position-in-win
+
 $(window).on("load",function() {
     $(window).scroll(function() {
       var windowBottom = $(this).scrollTop() + ($(this).innerHeight() * .25);

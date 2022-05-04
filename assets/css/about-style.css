@@ -37,4 +37,5 @@ html {
 #credit, #credit-2 {
     margin: 1rem;
     text-align: center;
+    opacity:0;
 }
